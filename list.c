@@ -48,8 +48,7 @@ List * createList() {
 
 void * firstList(List * list) {
     list->current = list->head;
-    void* num = list->current->data;
-    return num;
+    return list->current->data;
 }
 
 void * nextList(List * list) {
