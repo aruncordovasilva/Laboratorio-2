@@ -210,3 +210,20 @@ Thu Mar 26 07:56:47 PM UTC 2026:
  tests:  11|1
 total_score: 50/60
 3bac984
+Thu Mar 26 07:58:58 PM UTC 2026: 
+ list.c | 7 +++++++
+ 1 file changed, 7 insertions(+)
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:135:16: error: returning ‘int’ from a function with return type ‘void *’ makes pointer from integer without a cast [-Wint-conversion]
+  135 |         return 1
+      |                ^
+list.c:135:17: error: expected ‘;’ before ‘}’ token
+  135 |         return 1
+      |                 ^
+      |                 ;
+  136 | 
+  137 |     }
+      |     ~            
+7e33d33
