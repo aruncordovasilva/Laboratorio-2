@@ -140,3 +140,21 @@ Thu Mar 26 07:40:48 PM UTC 2026:
  tests:  9|3
 total_score: 30/60
 704ed24
+Thu Mar 26 07:45:38 PM UTC 2026: 
+ list.c | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘pushFront’:
+list.c:83:22: error: ‘aux’ undeclared (first use in this function); did you mean ‘Aux’?
+   83 |         list->head = aux;
+      |                      ^~~
+      |                      Aux
+list.c:83:22: note: each undeclared identifier is reported only once for each function it appears in
+list.c:88:25: error: expected ‘;’ before ‘}’ token
+   88 |         list->head = Aux
+      |                         ^
+      |                         ;
+   89 |     }
+      |     ~                    
+ebfafb9
