@@ -33,6 +33,9 @@ Node * createNode(void * data) {
 
 List * createList() {
     List* L = (List*) malloc(sizeof(List));
+    if(L == NULL){
+        printf("Se creo mal la lista");
+    }
     L->head = NULL;
     L->tail = NULL;
     L->current = NULL;
