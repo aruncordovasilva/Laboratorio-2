@@ -82,3 +82,15 @@ Thu Mar 26 07:23:35 PM UTC 2026:
  tests:  2|5
 total_score: 15/60
 d492ed5
+Thu Mar 26 07:27:04 PM UTC 2026: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘nextList’:
+list.c:56:38: error: ‘NUll’ undeclared (first use in this function); did you mean ‘NULL’?
+   56 |     if(list->current == NULL) return NUll;
+      |                                      ^~~~
+      |                                      NULL
+list.c:56:38: note: each undeclared identifier is reported only once for each function it appears in
+9d0251e
