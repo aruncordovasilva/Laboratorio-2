@@ -94,3 +94,8 @@ list.c:56:38: error: ‘NUll’ undeclared (first use in this function); did you
       |                                      NULL
 list.c:56:38: note: each undeclared identifier is reported only once for each function it appears in
 9d0251e
+Thu Mar 26 07:27:31 PM UTC 2026: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+8ffa673
