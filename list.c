@@ -85,7 +85,7 @@ void pushFront(List * list, void * data) {
     else{
         Aux->next = list->head;
         list->head->prev = Aux;
-        list->head = Aux
+        list->head = Aux;
     }
 }   
 

@@ -158,3 +158,15 @@ list.c:88:25: error: expected ‘;’ before ‘}’ token
    89 |     }
       |     ~                    
 ebfafb9
+Thu Mar 26 07:45:48 PM UTC 2026: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘pushFront’:
+list.c:83:22: error: ‘aux’ undeclared (first use in this function); did you mean ‘Aux’?
+   83 |         list->head = aux;
+      |                      ^~~
+      |                      Aux
+list.c:83:22: note: each undeclared identifier is reported only once for each function it appears in
+70f9219
