@@ -135,6 +135,14 @@ void * popCurrent(List * list) {
         free(list->current->next);
         return num;
     }
+    else{
+        if(list->current == list->head){
+            list->head = list->current->next;
+            list->current = list->current->prev;
+            free(list->current->next);
+            return num;
+        }
+    }
     return NULL;
 }
 
