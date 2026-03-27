@@ -372,3 +372,16 @@ list.c:148:9: error: ‘izq’ undeclared (first use in this function)
       |         ^~~
 list.c:148:9: note: each undeclared identifier is reported only once for each function it appears in
 2a89475
+Fri Mar 27 01:12:41 AM UTC 2026: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:144:19: error: expected ‘;’ before ‘}’ token
+  144 |         return num
+      |                   ^
+      |                   ;
+  145 |     }
+      |     ~              
+ea5e2aa
