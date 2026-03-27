@@ -355,3 +355,20 @@ list.c:159:1: error: control reaches end of non-void function [-Werror=return-ty
       | ^
 cc1: all warnings being treated as errors
 4cb0c5d
+Fri Mar 27 01:12:18 AM UTC 2026: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:144:19: error: expected ‘;’ before ‘}’ token
+  144 |         return num
+      |                   ^
+      |                   ;
+  145 |     }
+      |     ~              
+list.c:148:9: error: ‘izq’ undeclared (first use in this function)
+  148 |         izq->prev = NULL;
+      |         ^~~
+list.c:148:9: note: each undeclared identifier is reported only once for each function it appears in
+2a89475

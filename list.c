@@ -154,7 +154,7 @@ void * popCurrent(List * list) {
     Node* izq = list->current->prev;
     der->prev = izq;
     izq->next = der;
-    free(list->current)
+    free(list->current);
     return num;
 }
 
